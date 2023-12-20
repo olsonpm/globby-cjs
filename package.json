@@ -1,0 +1,18 @@
+{
+  "name": "globby-cjs",
+  "version": "0.1.0",
+  "description": "Exposes the 'globby' module as a cjs dependency",
+  "main": "index.js",
+  "keywords": [
+    "cjs",
+    "globby"
+  ],
+  "author": "Phil Olson",
+  "license": "SEE LICENSE IN license.txt",
+  "peerDependencies": {
+    "globby": ">=12.0.0"
+  },
+  "dependencies": {
+    "fix-esm": "^1.0.1"
+  }
+}
